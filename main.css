@@ -1,0 +1,82 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+.container{
+    color: blue;
+    margin: 0 40px ;
+    display: flex;
+    justify-content:space-between;
+ 
+}
+.btn {
+    background-color: #fff;
+    margin: 30px;
+    padding: 10px;
+    color: #000; 
+    border: 2px solid #ccc; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold; 
+    cursor: pointer;
+    transition: all 0.25s ease-in-out; 
+  }
+
+  .btn i {
+    transition: all 0.25s ease-in-out;
+    color: #ff7f00;
+  }
+
+  .btn:hover i {
+    transform: translateX(20px);
+  }
+  
+  .btn:hover {
+    border-color: #ff7f00; 
+  }
+.container1{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+}
+.card{
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 150ms all linear;
+    width: 257px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card:hover{
+    box-shadow: 0 20px 50px gray;
+}
+.card-image>img{
+    width: 240px;
+    height: 250px;
+    overflow: hidden;
+}
+.card:hover .card-image {
+    transform: scale(1.07);
+}
+
+h4{
+    color: rgb(104, 103, 103);
+}
+
+
+
+button{
+    width: 10rem;
+}
